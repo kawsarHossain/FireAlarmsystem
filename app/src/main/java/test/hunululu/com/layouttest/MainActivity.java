@@ -25,6 +25,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void startVolunteerActivity(View view){
 
+
+
+
+
+
+
+        
         Intent intent = new Intent(MainActivity.this,VolunteerActivity.class);
         startActivity(intent);
 
