@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawable_backgroun"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="test.hunululu.com.layouttest.MainActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.16" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:onClick="startUserActivity"
+        android:text="User"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_weight="0.04"
+        android:onClick="startVolunteerActivity"
+        android:text="Volunteer"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09" />
+
+    <Button
+        android:id="@+id/btnInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:onClick="startInstructionActivity"
+        android:text="Relaeted Instruction"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:onClick="startAboutActivity"
+        android:text="About"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+</LinearLayout>
