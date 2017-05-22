@@ -26,12 +26,6 @@ public class MainActivity extends AppCompatActivity {
     public void startVolunteerActivity(View view){
 
 
-
-
-
-
-
-        
         Intent intent = new Intent(MainActivity.this,VolunteerActivity.class);
         startActivity(intent);
 
@@ -40,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void startInstructionActivity (View view){
 
-        Intent intent = new Intent(MainActivity.this,InstructionActivity.class);
-        startActivity(intent);
+        Intent intent2 = new Intent(MainActivity.this,InstructionActivity.class);
+        startActivity(intent2);
 
 
     }
